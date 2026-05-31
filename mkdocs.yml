@@ -1,0 +1,93 @@
+site_name: 医学僧编程之旅
+site_description: 一个零基础医学生的编程学习之路 — Python入门 → R语言 → 生物信息学
+site_author: Yiz-L
+site_url: https://yiz-l.github.io/learn-bioinfo/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: 切换暗色模式
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: 切换亮色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+nav:
+  - 🏠 首页: index.md
+
+  - 🐍 Python学习路径:
+    - python/index.md
+    - 第1章：你好，编程世界: python/01-hello-world.md
+    - 第2章：变量与数据: python/02-variables.md
+    - 第3章：条件与循环: python/03-condition-loop.md
+    - 第4章：数据结构: python/04-data-structures.md
+    - 第5章：函数与模块: python/05-functions-modules.md
+    - 第6章：文件与数据: python/06-files-data.md
+    - 第7章：实战——科研小工具: python/07-research-tools.md
+    - 📖 Python速查表: python/cheatsheet.md
+
+  - 📊 R语言学习路径:
+    - r-language/index.md
+    - 第1章：从Python到R: r-language/01-from-python-to-r.md
+    - 第2章：R基础语法: r-language/02-r-basics.md
+    - 第3章：数据可视化: r-language/03-visualization.md
+    - 第4章：生物统计实战: r-language/04-biostatistics.md
+    - 📖 R速查表: r-language/cheatsheet.md
+
+  - 📝 学习笔记:
+    - notes/index.md
+    - Python踩坑记录: notes/python-tips.md
+    - R语言心得: notes/r-tips.md
+    - 命令行基础: notes/command-line.md
+    - Git版本控制: notes/git-notes.md
+
+  - ✅ 任务管理:
+    - tasks/index.md
+    - 学习计划: tasks/study-plan.md
+    - 科研任务: tasks/research-tasks.md
+
+  - 🔬 编程与免疫学:
+    - immunology/index.md
+    - Python免疫学应用: immunology/python-apps.md
+    - R免疫学应用: immunology/r-apps.md
+
+  - 📋 关于本站:
+    - about/index.md
+    - 学习路线图: about/roadmap.md
+    - 学习日志: about/learning-log.md
+    - 目标与里程碑: about/goals.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Yiz-L
+
+copyright: 用 ❤️ 和 Python 搭建
