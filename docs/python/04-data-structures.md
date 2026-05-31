@@ -149,6 +149,6 @@ print("总体积：" + str(total_volume) + " mL")
 
 ---
 
-## 🔜 下一章预告
+---
 
-第5章：函数与模块 —— 把常用代码打包，随时复用
+[← 上一章：条件与循环](03-condition-loop.md) | [📖 返回目录](index.md) | [下一章：函数与模块 →](05-functions-modules.md)

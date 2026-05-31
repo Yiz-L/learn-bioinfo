@@ -155,6 +155,6 @@ for i in range(len(patients)):
 
 ---
 
-## 🔜 下一章预告
+---
 
-第4章：数据结构 —— 更高效地组织和管理数据
+[← 上一章：变量与数据](02-variables.md) | [📖 返回目录](index.md) | [下一章：数据结构 →](04-data-structures.md)
